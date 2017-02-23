@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filtre avec Isotope</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="filters" class="button-group">
+      <button class="button is-checked" data-filter="*">Tout</button>
+      <button class="button" data-filter=".mountain">Montagne</button>
+      <button class="button" data-filter=".sea">Mer</button>
+      <button class="button" data-filter=".forest">Forêt</button>
+      <button class="button" data-filter=".girl">Femme</button>
+      <button class="button" data-filter=".animal">Animal</button>
+  </div>
+
+    <div class="grid">
+        <div class="row">
+            <div class="w-6 element-item mountain" data-category="mountain">
+                <img src="img/01.jpg" alt="">
+            </div>
+            <div class="w-6 element-item sea mountain" data-category="sea">
+                <img src="img/02.jpg" alt="">
+            </div>
+            <div class="w-6 element-item mountain" data-category="mountain">
+                    <img src="img/05.jpg" alt="">
+            </div>
+                <div class="w-6 element-item sea girl" data-category="sea">
+                    <img src="img/06.jpg" alt="">
+            </div>
+            <div class="w-6 element-item girl forest" data-category="girl">
+                    <img src="img/07.jpg" alt="">
+            </div>
+                <div class="w-6 element-item girl sea" data-category="sea">
+                    <img src="img/08.jpg" alt="">
+            </div>
+            <div class="w-6 element-item animal sea" data-category="animal">
+                    <img src="img/09.jpg" alt="">
+            </div>
+                <div class="w-6 element-item girl sea" data-category="girl">
+                    <img src="img/10.jpg" alt="">
+            </div>
+    </div>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
